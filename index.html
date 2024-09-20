@@ -13,6 +13,18 @@
 
 <body>
     <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    The World of Art
+                </a>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./about.html">About</a>
+                    <div id="user-name"></div>
+                    <div id="user-email"></div>
+                </div>
+            </div>
+        </nav>
         <div class="hero-image">
             <div class="hero-text">
                 <h1> World of Art</h1>
@@ -37,17 +49,19 @@
         <form>
             <div class="row">
                 <div class="col-sm-6">
-                    <label for="full-name-input">Aesthete(art lover):</label>
-                    <input class="form-control" type="text" name="fullname-input" placeholder="name">
+                    <label for="full-Name-input">Aesthete(art lover):</label>
+                    <input class="form-control" type="text" name="full-Name-input" id="full-Name-input"
+                        placeholder="name">
                     <div class="col-sm-6">
                         <label for="email-input">Email:</label>
-                        <input class="form-control" type="text" name="email-input" placeholder="example@example.com">
+                        <input class="form-control" type="text" name="email-input" id="email-input"
+                            placeholder="example@example.com">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <button id="save-button" type="text" class="btn btn-dark">Save Data</button>
+                    <button id="save-button" type="button" class="btn btn-dark">Join Us</button>
                 </div>
 
             </div>
