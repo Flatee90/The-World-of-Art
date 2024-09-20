@@ -16,12 +16,10 @@ function handleSavejoinus() {
 
     localStorage.setItem("fullName", fullName);
     localStorage.setItem("email", email);
-
-
-
 }
 
+function saveUserData() {
+    let fullName = localStorage.getItem("")
+}
 savebutton.addEventListener("click", handleSavejoinus);
 
-let myEmail = localStorage.getitem("email");
-let myName = localStorage.getitem("fullName");
