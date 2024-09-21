@@ -1,3 +1,3 @@
 console.log("Hello from about");
 
-jjjgit 
+console.log("hello");
