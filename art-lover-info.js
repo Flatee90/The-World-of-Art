@@ -29,8 +29,8 @@ let myEmail = localStorage.getItem("email");
 let myName = localStorage.getItem("fullName");
 console.log(myName, myEmail);
 
-userNameNavItem.textContent = myName;
-emailNavItem.textContent = myEmail;
+userNameNavItem.innerHTML = myName;
+emailNavItem.innerHTML = myEmail;
 }
 
 renderNavinfo();
