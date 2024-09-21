@@ -18,8 +18,19 @@ function handleSavejoinus() {
     localStorage.setItem("email", email);
 }
 
-function saveUserData() {
-    let fullName = localStorage.getItem("")
-}
+
 savebutton.addEventListener("click", handleSavejoinus);
 
+function renderNavinfo() {
+let userNameNavItem = document.getElementById("user-name");
+let emailNavItem = document.getElementById("user-email");
+
+let myEmail = localStorage.getItem("email");
+let myName = localStorage.getItem("fullName");
+console.log(myName, myEmail);
+
+userNameNavItem.textContent = myName;
+emailNavItem.textContent = myEmail;
+}
+
+renderNavinfo();
