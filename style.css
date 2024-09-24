@@ -14,3 +14,13 @@
     left: 30%;
     right: 30%;
 }
+
+/*The world of art*/
+
+.hero-image2 {
+    background-image: linear-gradient(rgba(256, 256, 256, 0), rgba(256, 256, 256, 10)), url(/img/art.png);
+    height: 85vh;
+    background-size: cover;
+    position: relative;
+}
+
