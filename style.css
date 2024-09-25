@@ -18,8 +18,8 @@
 /*The world of art*/
 
 .hero-image2 {
-    background-image: linear-gradient(rgba(256, 256, 256, 0), rgba(256, 256, 256, 10)), url(/img/art.png);
-    height: 85vh;
+    background-image: linear-gradient(rgba(256, 256, 256, 0), rgba(256, 256, 256, 10)), url(/img/art.jpg);
+    height: 80vh;
     background-size: cover;
     position: relative;
 }

@@ -11,8 +11,23 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    The World of Art
+                </a>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./theworldofart.html">Art API</a>
+                    <div id="user-name"></div>
+                    <div id="user-email"></div>
+                </div>
+            </div>
+        </nav>
     <div class="hero-image2">
         </div>
+        </header>
 
     
 
@@ -20,9 +35,9 @@
     <h1>The Met collection</h1>
 
     <form>
-        <label for="Object-number">Object Id</label>
-        <input type="text" name="Object-input" id="Object-input" placeholder="number">
-        <button class="btn btn-primary">Search!</button>
+        <label for="Object-search"> Id/Keyword</label>
+        <input type="text" name="Object-search" id="Object-search" placeholder="What are you in search of?">
+        <button id="fetch-button" class="btn btn-secondary">Search!</button>
     </form>
 
 
