@@ -3,10 +3,12 @@ console.log("hello from The World of art");
 let fetchButton = document.getElementById("fetch-button");
 let Objectnumber = document.getElementById("object-number");
 let artOutput = document.getElementById("art-output");
+let Idinput = document.getElementById("object-search");
 
 async function handlefetchobject() {
     console.log("Welcome Art Lover!");
-    let Objectnumber = objectInput.value;
+    let Objectnumber = objectinput.value;
+    let Objectsearch = Idinput.value;
     let url = `https://collectionapi.metmuseum.org/public/collection/v1/search/${Objectnumber}`;
     console.log(url);
     try {
