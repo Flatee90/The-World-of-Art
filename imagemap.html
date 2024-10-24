@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar">
-                <div class="container-fluid">
-                    <a class="navbar-brand">
-                        The World of Art
-                    </a>
-                    <div class="navbar-nav">
-                        <a class="nav-link" href="./about.html">About the Creator</a>
-                        <a class="nav-link" href="./theworldofart.html">Art API</a>
-                        <a class="nav-link" href="./imagemap.html">Image map</a>
-                        <div id="user-name"></div>
-                        <div id="user-email"></div>
-                    </div>
+
+<head>
+    <title>Image Map</title>
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="container">
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    The World of Art
+                </a>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="./about.html">About the Creator</a>
+                    <a class="nav-link" href="./theworldofart.html">Art API</a>
+                    <a class="nav-link" href="./imagemap.html">Image map</a>
+                    <div id="user-name"></div>
+                    <div id="user-email"></div>
                 </div>
-            </nav>
-            </header>
-    
-            
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Image Map</h1>
+        <p>
+            Image maps create clickable regions on an image. <br />
+            Hover mouse over Picasso's face.
+        </p>
         <img width="50%" usemap="#my-image-map" src="picasso.jpg" />
         <map name="my-image-map">
-            <area title="Learn about Picasso" coords="78,82, 61,255" shape="circle" href="https://en.wikipedia.org/wiki/Pablo_Picasso" />
-            <area title="Picasso art" coords="110,106, 79,255" shape="rect" href="https://www.wikiart.org/en/pablo-picasso" />
+            <area title="Learn about Picasso" coords="78,82, 61,255" shape="circle"
+                href="https://en.wikipedia.org/wiki/Pablo_Picasso" />
+            <area title="Picasso art" coords="110,106, 79,255" shape="rect"
+                href="https://www.wikiart.org/en/pablo-picasso" />
         </map>
         <script>
             imageMapResize();
         </script>
-    </body>
+
+    </main>
+    <footer></footer>
+
 </html>
+</body>
