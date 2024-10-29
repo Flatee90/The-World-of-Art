@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="utility-function.js"></script>
+    <script src="contactform.js"></script>
+<body>
+    <h1>Contact Information</h1>
+    <form onsubmit="myProcessForm(event)">
+        <input required name="email" placeholder="Email address"><br>
+        <input name="tel">###-###-####<br>
+        <textarea name="comment" placeholder="Type your comment"></textarea><br>
+        <input type="submit">Submit</input>
+    </form>
+    <div id="outputTag"></div>
+    
+    
+</body>
+</html>
