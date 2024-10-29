@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone appointment form</title>
+    <script src="utility-function2.js"></script>
+    <script src="phoneform.js"></script>
+</head>
+<body>
+    <h1>Book your phone appointment</h1>
+    <form onsubmit="myProcessForm(event)">
+        <input required name="Name" placeholder="First & Last Name"><br>
+        <input name="tel" placeholder="###-###-####"><br>
+        <input name="Email" placeholder="Email"><br>
+        <input type="datetime-local"><br> 
+        <input type="submit">
+    </form>
+    <div id="outputTag"></div>
+    
+</body>
+</html>
